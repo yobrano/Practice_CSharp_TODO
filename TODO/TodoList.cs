@@ -20,8 +20,7 @@ namespace TODO
             TodoItems = todoItems;
         }
 
-
-        public string GetJsonPath() => Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "output", "output.json");
+        private string GetJsonPath() => Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "output", "output.json");
 
         public bool ExportToJson()
         {
@@ -42,8 +41,6 @@ namespace TODO
             
             return true;
         }
-
-     
 
     }
 }

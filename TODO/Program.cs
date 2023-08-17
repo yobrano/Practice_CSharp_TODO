@@ -10,6 +10,9 @@ namespace TODO
     {
         static void Main(string[] args)
         {
+
+    // Exporting 
+
             //DateTime startTime = new DateTime(2023, 8, 10, 17, 30, 0);
             //DateTime endTime = new DateTime(2023, 8, 11, 20, 0, 0);
             //var tags = new List<string>{ "Home", "Chores", "Organise" };
@@ -26,6 +29,7 @@ namespace TODO
 
             //myTodoList.ExportToJson();
 
+    // Importing 
             var myTodoList = new TodoList();
             myTodoList.ImportFromJson();
             Console.WriteLine(myTodoList.TodoItems[0].Description());

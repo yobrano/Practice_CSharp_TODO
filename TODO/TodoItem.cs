@@ -23,10 +23,22 @@ namespace TODO
             Tags = tags;
             Notes = notes;
             Priority = priority;
+
+            validateEntries();
         }
 
         public TimeSpan Duration() => EndTime - StartTime;
 
+        private void validateEntries()
+        {
+            if(StartTime > EndTime)
+            {
+                throw new ArgumentException(
+                    "Ending time cannot be less than to starting time. " +
+                    "Task duration will result as a negative time span."
+                  );
+            }
+        }
 
         public string TaskStatus()
         {
