@@ -1,0 +1,61 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore Visual Studio files
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore NuGet packages
+packages/
+
+# Ignore user-specific files
+*.userprefs
+*.suo
+*.sln.docstates
+*.user
+
+# Ignore ReSharper files
+_ReSharper*/
+
+# Ignore build logs
+*.log
+
+# Ignore build directories
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+[Oo]bj/
+[Tt]est[Rr]esult*/
+
+# Ignore Visual Studio files
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore Rider files
+.idea/
+
+# Ignore user-specific files
+*.userprefs
+
+# Ignore NuGet packages
+packages/
+
+# Ignore build results
+[Bb]uild/
+
+# Ignore Resharper files
+_ReSharper*/
+
+# Ignore NUnit test results
+*.xml
+
+# Ignore Visual Studio files
+.vs/
+
+# Ignore Rider files
+.idea/
