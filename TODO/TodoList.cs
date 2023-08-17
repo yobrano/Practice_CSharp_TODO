@@ -9,6 +9,7 @@ namespace TODO
 {
     public class TodoList
     {
+        public List<TodoItem> TodoItems { get; set; }
 
         public TodoList(List<TodoItem> todoItems = null)
         {
@@ -19,10 +20,8 @@ namespace TODO
             TodoItems = todoItems;
         }
 
-        public List<TodoItem> TodoItems { get; set; }
 
         public string GetJsonPath() => Path.Combine(Directory.GetCurrentDirectory(), "..", "..", "output", "output.json");
-       
 
         public bool ExportToJson()
         {
