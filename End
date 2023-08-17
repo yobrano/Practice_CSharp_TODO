@@ -1,0 +1,17 @@
+[33mcommit 8108f99db2366df99f91b22e9ef9ec011b37b398[m[33m ([m[1;36mHEAD -> [m[1;32mUnitTesting[m[33m)[m
+Author: yobrano <mburubrian2@gmail.com>
+Date:   Thu Aug 17 10:03:30 2023 +0300
+
+    Constrained and tested task end time.
+
+[33mcommit cb2d2b9342eb151d96ea49a70727a11170a50898[m[33m ([m[1;32mmaster[m[33m)[m
+Author: yobrano <mburubrian2@gmail.com>
+Date:   Thu Aug 17 09:17:58 2023 +0300
+
+    Unit Testing
+
+[33mcommit da771fb3e8de42fe37576b6d81719e3bb53cbf31[m
+Author: yobrano <mburubrian2@gmail.com>
+Date:   Thu Aug 17 08:50:32 2023 +0300
+
+    Inital commit
